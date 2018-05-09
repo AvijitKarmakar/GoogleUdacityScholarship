@@ -45,7 +45,7 @@ public class WeatherProvider extends ContentProvider {
     WeatherDbHelper mOpenHelper;
 
     //  COMPLETED (6) Write a method called buildUriMatcher where you match URI's to their numeric ID
-    private static UriMatcher buildUriMatcher() {
+    public static UriMatcher buildUriMatcher() {
         UriMatcher uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
         uriMatcher.addURI(WeatherContract.CONTENT_AUTHORITY, WeatherContract.PATH_WEATHER,
                 CODE_WEATHER);
