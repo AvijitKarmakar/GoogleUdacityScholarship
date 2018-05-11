@@ -98,7 +98,6 @@ public class NotificationUtils {
     //      TODO (15) Create an Action for the user to tell us they've had a glass of water
     //      TODO (16) Return the action
 
-
     private static PendingIntent contentIntent(Context context) {
         Intent startActivityIntent = new Intent(context, MainActivity.class);
 
