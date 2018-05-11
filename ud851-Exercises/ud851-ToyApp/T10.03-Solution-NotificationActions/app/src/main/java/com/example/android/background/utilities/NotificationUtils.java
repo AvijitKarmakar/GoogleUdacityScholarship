@@ -54,7 +54,8 @@ public class NotificationUtils {
     private static final String WATER_REMINDER_NOTIFICATION_CHANNEL_ID = "reminder_notification_channel";
 
     private static final int ACTION_IGNORE_PENDING_INTENT_ID = 3418;
-    private static final int ACTION_DRINK_PENDING_INTENT_ID = 3418;
+
+    private static final int ACTION_DRINK_PENDING_INTENT_ID = 3419;
 
     //  COMPLETED (1) Create a method to clear all notifications
     public static void clearAllNotifications(Context context) {
